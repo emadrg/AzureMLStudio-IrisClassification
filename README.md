@@ -15,6 +15,7 @@ The dataset used for training the model can be found on Kaggle: [Iris Dataset](h
 - **`notebook_1.py`**: Contains the code for training the machine learning model.
 - **`app.py`**: Exposes an API and serves as the main application using the deployed model.
 - **`iris_app_local_model.py`**: Implements a second approach where the model is exported and saved locally, instead of being registered in Azure.
+- **`score.py`** and **`request.py`**: Used for exposing the API endpoint.
 
 ## **Features**
 - **Machine Learning Model**: RandomForestClassifier trained on the normalized Iris dataset.
